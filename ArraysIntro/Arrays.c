@@ -6,9 +6,9 @@ int main(){
 //we can create variables for each piece of data but this would get very tedious / waste of space
 // In c, we have a data structure array for this. A native data type.
 
-	int array[5]; //Thos gives us 5 consecutive spaces of memory
+	int array[5]; //This gives us 5 consecutive spaces of memory
 	array[0] = 23;
-	array[1] = 24;
+	array[1] = 24;//An array of type int can only take integers
 	array[2] = 25;
 	array[3] = 26;
 	array[4] = 27;
