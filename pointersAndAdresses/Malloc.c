@@ -15,8 +15,11 @@ int main(){
 		DynamicArray[i] = 7;
 		
 		}
-	printf("%d", DynamicArray[0]);
 
+
+	for(int j = 0; j < ArraySize; j++){
+		printf("%d \n", DynamicArray[j]);
+	}
 	free(DynamicArray);	
 
 
